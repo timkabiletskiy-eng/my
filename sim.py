@@ -18,20 +18,20 @@ class Student:
 
     def chill(self):
         print("Я пішов з друзяками гуляти")
-        self.gladness += 2
+        self.gladness += 2.5
         self.energy -= 3
         self.progress -= 1
         self.money -= 100
 
     def sleep(self):
         print("Я пішов спати")
-        self.energy += 5
-        self.gladness += 1
+        self.energy += 5.5
+        self.gladness += 1.5
 
     def eat(self):
         print("Я смачно поїв")
-        self.energy += 3
-        self.gladness += 1
+        self.energy += 3.5
+        self.gladness += 1.5
         self.progress -= 0.2
         self.money -= 80
 
